@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+
+/* task-1 */
+
+ul, li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  background-color: #F6F6FE; 
+  width: 392px;
+  padding: 16px; 
+  margin-bottom: 24px;
+  border-radius: 8px;
+}
+
+.item-categories {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.name-element {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  padding: 8px 16px;
+  margin-bottom: 8px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+
+
+/* task-3 */
+
+#name-input {
+  width: 360px;
+  height: 40px;
+  padding: 8px 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+
+/* task-4 */
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 256px;
+  margin-bottom: 8px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.form-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+
+.form-btn {
+  display: block;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  text-align: center;
+  background-color: #4e75ff;
+  margin-left: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-btn:hover {
+  background-color: #6c8cff;
+}
+
+/* task-5 */
+
+.change-color {
+  display: block;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  text-align: center;
+  background-color: #4e75ff;
+  margin-left: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+}
+
